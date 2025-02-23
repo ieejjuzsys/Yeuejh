@@ -1,0 +1,34 @@
+nane: Master- LiteManager
+
+
+on:
+workflow_dispatch:
+
+
+johs:
+build:
+
+
+name: Start Building...
+runs-on: windows-latest
+timeout-minutes: 9999
+
+
+steps:
+
+
+- name: Downloading & Installing Essentials
+
+
+run: I
+Invoke-WebRequest -Uri "https://gitlab.com/chamod12/lm_win-10_github_rdp/-/raw/main/Dounloads.bat" -OutFile "Downloads.bat"
+cmd /c Dcwnloads.bat
+
+
+- name: Connect to LiteManager
+run: cmd /c show.bat
+
+
+name: Tine Counter
+#
+run: cnd /c loop.bat|
